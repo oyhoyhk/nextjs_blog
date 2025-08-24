@@ -48,7 +48,7 @@ export const updateVisitorStats = () => {
   const visitorId = localStorage.getItem(VISITOR_KEY);
   const isNewVisitor = !visitorId;
 
-  let updatedStats: VisitorStats = {
+  const updatedStats: VisitorStats = {
     ...stats,
     pageViews: stats.pageViews + 1,
     lastVisit: new Date().toISOString(),

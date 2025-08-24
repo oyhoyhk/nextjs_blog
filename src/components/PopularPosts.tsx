@@ -9,8 +9,8 @@ import { categories } from '@/data/categories';
 interface PopularPost {
   path: string;
   views: number;
-  title?: string;
-  category?: string;
+  title: string;
+  category: string;
 }
 
 export default function PopularPosts() {
@@ -18,25 +18,29 @@ export default function PopularPosts() {
 
   useEffect(() => {
     const posts = getPopularPosts();
-    const postsWithTitles = posts.map(post => {
-      const pathParts = post.path.split('/');
-      if (pathParts.length >= 3) {
-        const categorySlug = pathParts[1];
-        const postSlug = pathParts[2];
-        
-        const blogPost = blogPosts.find(p => 
-          p.category === categorySlug && p.slug === postSlug
-        );
-        const category = categories.find(c => c.slug === categorySlug);
-        
-        return {
-          ...post,
-          title: blogPost?.title,
-          category: category?.name
-        };
-      }
-      return post;
-    }).filter(post => post.title);
+    const postsWithTitles = posts
+      .map(post => {
+        const pathParts = post.path.split('/');
+        if (pathParts.length >= 3) {
+          const categorySlug = pathParts[1];
+          const postSlug = pathParts[2];
+          
+          const blogPost = blogPosts.find(p => 
+            p.category === categorySlug && p.slug === postSlug
+          );
+          const category = categories.find(c => c.slug === categorySlug);
+          
+          if (blogPost && category) {
+            return {
+              ...post,
+              title: blogPost.title,
+              category: category.name
+            };
+          }
+        }
+        return null;
+      })
+      .filter((post): post is PopularPost => post !== null);
 
     setPopularPosts(postsWithTitles);
   }, []);
