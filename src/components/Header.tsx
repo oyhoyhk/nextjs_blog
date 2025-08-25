@@ -3,10 +3,10 @@ import { categories } from '@/data/categories';
 
 export default function Header() {
   return (
-    <header className="bg-white shadow-sm border-b">
+    <header className="bg-card shadow-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
+          <Link href="/" className="text-2xl font-bold text-card-foreground">
             부자 되는 습관
           </Link>
           
@@ -15,7 +15,7 @@ export default function Header() {
               <Link
                 key={category.id}
                 href={`/${category.slug}`}
-                className="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
+                className="text-muted-foreground hover:text-card-foreground px-3 py-2 text-sm font-medium transition-colors"
               >
                 {category.name}
               </Link>

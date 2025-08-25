@@ -26,34 +26,34 @@ export default async function PostPage({ params }: PostPageProps) {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumb */}
       <nav className="mb-8">
-        <ol className="flex items-center space-x-2 text-sm text-gray-500">
+        <ol className="flex items-center space-x-2 text-sm text-muted-foreground">
           <li>
-            <Link href="/" className="hover:text-gray-900 transition-colors">홈</Link>
+            <Link href="/" className="hover:text-card-foreground transition-colors">홈</Link>
           </li>
           <li>/</li>
           <li>
-            <Link href={`/${categorySlug}`} className="hover:text-gray-900 transition-colors">
+            <Link href={`/${categorySlug}`} className="hover:text-card-foreground transition-colors">
               {category.name}
             </Link>
           </li>
           <li>/</li>
-          <li className="text-gray-900 truncate">{post.title}</li>
+          <li className="text-card-foreground truncate">{post.title}</li>
         </ol>
       </nav>
 
       {/* Post Header */}
       <header className="mb-8">
         <div className="mb-4">
-          <span className="bg-blue-100 text-blue-800 text-sm font-medium px-3 py-1 rounded-full">
+          <span className="bg-accent/10 text-accent text-sm font-medium px-3 py-1 rounded-full">
             {category.name}
           </span>
         </div>
         
-        <h1 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
+        <h1 className="text-4xl font-bold text-card-foreground mb-6 leading-tight">
           {post.title}
         </h1>
         
-        <div className="flex flex-wrap items-center text-gray-600 text-sm gap-4 mb-6">
+        <div className="flex flex-wrap items-center text-muted-foreground text-sm gap-4 mb-6">
           <div className="flex items-center">
             <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
@@ -80,7 +80,7 @@ export default async function PostPage({ params }: PostPageProps) {
           {post.tags.map((tag) => (
             <span
               key={tag}
-              className="bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full hover:bg-gray-200 transition-colors"
+              className="bg-muted text-muted-foreground text-sm px-3 py-1 rounded-full hover:bg-muted/80 transition-colors"
             >
               #{tag}
             </span>
@@ -88,8 +88,8 @@ export default async function PostPage({ params }: PostPageProps) {
         </div>
 
         {/* Excerpt */}
-        <div className="bg-blue-50 border-l-4 border-blue-400 p-6 mb-8">
-          <p className="text-blue-900 text-lg leading-relaxed font-medium">
+        <div className="bg-accent/5 border-l-4 border-accent p-6 mb-8">
+          <p className="text-accent-foreground text-lg leading-relaxed font-medium">
             {post.excerpt}
           </p>
         </div>
@@ -98,13 +98,13 @@ export default async function PostPage({ params }: PostPageProps) {
       {/* Post Content */}
       <article className="prose prose-lg max-w-none">
         <div 
-          className="text-gray-800 leading-relaxed"
+          className="text-card-foreground leading-relaxed"
           dangerouslySetInnerHTML={{
             __html: post.content
-              .replace(/^# /gm, '<h1 class="text-3xl font-bold text-gray-900 mt-8 mb-4">')
-              .replace(/^## /gm, '<h2 class="text-2xl font-semibold text-gray-900 mt-6 mb-3">')
-              .replace(/^### /gm, '<h3 class="text-xl font-medium text-gray-900 mt-4 mb-2">')
-              .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-gray-900">$1</strong>')
+              .replace(/^# /gm, '<h1 class="text-3xl font-bold text-card-foreground mt-8 mb-4">')
+              .replace(/^## /gm, '<h2 class="text-2xl font-semibold text-card-foreground mt-6 mb-3">')
+              .replace(/^### /gm, '<h3 class="text-xl font-medium text-card-foreground mt-4 mb-2">')
+              .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-card-foreground">$1</strong>')
               .replace(/^\- /gm, '<li class="ml-4 mb-2">')
               .replace(/^(\d+\. )/gm, '<li class="ml-4 mb-2 list-decimal">')
               .split('\n')
@@ -126,8 +126,8 @@ export default async function PostPage({ params }: PostPageProps) {
       </article>
 
       {/* Related Posts */}
-      <div className="mt-12 pt-8 border-t border-gray-200">
-        <h3 className="text-xl font-semibold text-gray-900 mb-6">
+      <div className="mt-12 pt-8 border-t border-border">
+        <h3 className="text-xl font-semibold text-card-foreground mb-6">
           관련 글
         </h3>
         <div className="grid md:grid-cols-2 gap-6">
@@ -138,15 +138,15 @@ export default async function PostPage({ params }: PostPageProps) {
               <Link
                 key={relatedPost.id}
                 href={`/${categorySlug}/${relatedPost.slug}`}
-                className="block bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors"
+                className="block bg-muted rounded-lg p-6 hover:bg-muted/80 transition-colors"
               >
-                <h4 className="font-semibold text-gray-900 mb-2">
+                <h4 className="font-semibold text-card-foreground mb-2">
                   {relatedPost.title}
                 </h4>
-                <p className="text-gray-600 text-sm mb-3 line-clamp-2">
+                <p className="text-muted-foreground text-sm mb-3 line-clamp-2">
                   {relatedPost.excerpt}
                 </p>
-                <div className="text-xs text-gray-500">
+                <div className="text-xs text-muted-foreground">
                   {new Date(relatedPost.publishedAt).toLocaleDateString('ko-KR')} • {relatedPost.readTime}분 읽기
                 </div>
               </Link>
@@ -155,10 +155,10 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
 
       {/* Back to Category */}
-      <div className="mt-8 pt-6 border-t border-gray-200">
+      <div className="mt-8 pt-6 border-t border-border">
         <Link
           href={`/${categorySlug}`}
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium transition-colors"
+          className="inline-flex items-center text-accent hover:text-accent/80 font-medium transition-colors"
         >
           <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clipRule="evenodd" />
