@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-01-25T10:00:00Z",
-    "totalPosts": 8,
+    "lastUpdated": "2025-01-25T19:30:00Z",
+    "totalPosts": 18,
     "categories": {
       "stocks": 4,
-      "bitcoin": 2,
-      "real-estate": 2
+      "bitcoin": 7,
+      "real-estate": 7
     }
   },
   "posts": [
@@ -80,6 +80,96 @@
       "readTime": 12,
       "mainTopics": ["금리정책", "통화정책", "섹터분석", "투자전략"],
       "keyPoints": "자금 조달 비용 절감, 할인율 하락으로 기업 가치 상승, 섹터별 차별적 영향, 단계별 투자 전략"
+    },
+    {
+      "id": "9",
+      "title": "금리 변동이 부동산 시장에 미치는 영향 분석",
+      "category": "real-estate",
+      "publishedAt": "2025-01-25T09:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["금리정책", "부동산시장", "대출규제", "투자전략"],
+      "keyPoints": "대출 접근성 개선과 자산 가치 재평가, 지역별·유형별 차별적 영향, 부동산 정책과의 상호작용"
+    },
+    {
+      "id": "10",
+      "title": "지방 부동산 투자 완벽 가이드",
+      "category": "real-estate",
+      "publishedAt": "2025-01-25T10:30:00Z",
+      "readTime": 9,
+      "mainTopics": ["지방부동산", "수익률", "임대수익", "지역분석"],
+      "keyPoints": "수도권 대비 높은 수익률과 낮은 진입장벽, 지역별 특성 분석, 전문가 네트워크의 중요성"
+    },
+    {
+      "id": "11",
+      "title": "전세에서 매매로 전환하는 스마트 투자 전략",
+      "category": "real-estate",
+      "publishedAt": "2025-01-25T12:00:00Z",
+      "readTime": 7,
+      "mainTopics": ["전세", "매매전환", "갭투자", "레버리지"],
+      "keyPoints": "전세제도의 리스크 증가, 비용-편익 분석을 통한 의사결정, 단계별 실행 체크리스트"
+    },
+    {
+      "id": "12",
+      "title": "부동산 리츠(REITs) 투자 완벽 가이드",
+      "category": "real-estate",
+      "publishedAt": "2025-01-25T13:30:00Z",
+      "readTime": 6,
+      "mainTopics": ["리츠", "REITs", "배당수익", "간접투자"],
+      "keyPoints": "소액으로 부동산 투자 효과, 안정적 배당수익, 직접 부동산 투자와의 비교 분석"
+    },
+    {
+      "id": "13",
+      "title": "수익형 부동산 투자 분석과 성공 전략",
+      "category": "real-estate",
+      "publishedAt": "2025-01-25T15:00:00Z",
+      "readTime": 10,
+      "mainTopics": ["수익형부동산", "상업용부동산", "임대수익", "NOI"],
+      "keyPoints": "안정적 현금흐름 창출, 유형별 투자 전략, 철저한 사전 분석과 리스크 관리의 중요성"
+    },
+    {
+      "id": "14",
+      "title": "비트코인 반감기와 가격 사이클 완벽 분석",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-25T16:30:00Z",
+      "readTime": 9,
+      "mainTopics": ["반감기", "가격사이클", "채굴", "공급감소", "Stock-to-Flow"],
+      "keyPoints": "4년 주기 반감기의 메커니즘, 역사적 가격 패턴 분석, 2028년 5차 반감기 대비 투자 전략"
+    },
+    {
+      "id": "15",
+      "title": "암호화폐 포트폴리오 구성 전략과 리밸런싱",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-25T17:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["포트폴리오", "분산투자", "알트코인", "DCA", "리밸런싱"],
+      "keyPoints": "위험도별 포트폴리오 구성, 체계적 리밸런싱 전략, DCA 및 손익 통산 활용법"
+    },
+    {
+      "id": "16",
+      "title": "CBDC가 암호화폐에 미치는 영향 완벽 분석",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-25T18:00:00Z",
+      "readTime": 7,
+      "mainTopics": ["CBDC", "중앙은행", "디지털화폐", "규제환경", "경쟁관계"],
+      "keyPoints": "CBDC와 암호화폐의 경쟁·보완 관계, 주요국 CBDC 현황, 장기적 공존 시나리오"
+    },
+    {
+      "id": "17",
+      "title": "암호화폐 세금 최적화 가이드 2025",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-25T18:30:00Z",
+      "readTime": 10,
+      "mainTopics": ["세금", "양도소득세", "절세", "세무신고", "기본공제"],
+      "keyPoints": "2025년 과세제도 완벽 이해, 합법적 절세 전략, 실전 세무신고 가이드"
+    },
+    {
+      "id": "18",
+      "title": "기관투자자가 선택하는 암호화폐 투자 트렌드",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-25T19:00:00Z",
+      "readTime": 9,
+      "mainTopics": ["기관투자자", "ETF", "투자전략", "시장분석", "제도화"],
+      "keyPoints": "글로벌 기관투자자의 암호화폐 참여 현황, 투자 패턴 분석, 개인투자자를 위한 인사이트"
     }
   ],
   "upcomingTopics": {
