@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-01-25T10:00:00Z",
+    "totalPosts": 8,
+    "categories": {
+      "stocks": 4,
+      "bitcoin": 2,
+      "real-estate": 2
+    }
+  },
+  "posts": [
+    {
+      "id": "1",
+      "title": "삼성전자 주식 투자 전략 분석",
+      "category": "stocks",
+      "publishedAt": "2025-01-20T10:00:00Z",
+      "readTime": 5,
+      "mainTopics": ["삼성전자", "반도체", "메모리", "파운드리"],
+      "keyPoints": "메모리 반도체 시장 회복, 파운드리 사업 성장, 스마트폰 프리미엄 시장 강세"
+    },
+    {
+      "id": "2", 
+      "title": "Apple 실적 발표 후 주가 전망",
+      "category": "stocks",
+      "publishedAt": "2025-01-19T14:30:00Z",
+      "readTime": 4,
+      "mainTopics": ["Apple", "실적분석", "iPhone", "서비스"],
+      "keyPoints": "iPhone 15 프로 모델 강세, 서비스 부문 지속 성장, AI 기능으로 새로운 성장 모멘텀"
+    },
+    {
+      "id": "3",
+      "title": "SK하이닉스 HBM 시장 선점 전략", 
+      "category": "stocks",
+      "publishedAt": "2025-01-18T09:15:00Z",
+      "readTime": 6,
+      "mainTopics": ["SK하이닉스", "HBM", "AI반도체", "메모리"],
+      "keyPoints": "HBM3E 양산, NVIDIA/AMD 장기 공급계약, AI 시장 성장으로 수요 폭증 예상"
+    },
+    {
+      "id": "4",
+      "title": "비트코인 ETF 승인 후 시장 변화",
+      "category": "bitcoin", 
+      "publishedAt": "2025-01-21T16:00:00Z",
+      "readTime": 5,
+      "mainTopics": ["비트코인", "ETF", "기관투자", "제도권"],
+      "keyPoints": "기관 투자자 유입 확대, 유동성 증가와 시장 안정성 향상, 규제 명확성으로 신뢰도 상승"
+    },
+    {
+      "id": "5",
+      "title": "이더리움 2.0 완전 전환의 영향",
+      "category": "bitcoin",
+      "publishedAt": "2025-01-17T11:45:00Z", 
+      "readTime": 7,
+      "mainTopics": ["이더리움", "PoS", "DeFi", "스테이킹"],
+      "keyPoints": "에너지 효율성 99.9% 개선, 스테이킹 연 4-6% 수익, DeFi 생태계 안정성 향상"
+    },
+    {
+      "id": "6",
+      "title": "2024년 서울 아파트 시장 전망",
+      "category": "real-estate",
+      "publishedAt": "2025-01-22T08:30:00Z",
+      "readTime": 6,
+      "mainTopics": ["서울아파트", "금리정책", "공급물량", "지역별분석"],
+      "keyPoints": "금리 상승과 대출 규제로 관망세, 3기 신도시 공급 증가, 지역별 차별화 전망"
+    },
+    {
+      "id": "7",
+      "title": "신도시 투자의 기회와 리스크",
+      "category": "real-estate", 
+      "publishedAt": "2025-01-16T15:20:00Z",
+      "readTime": 8,
+      "mainTopics": ["3기신도시", "분양", "인프라", "교통"],
+      "keyPoints": "초기 분양가 메리트, 체계적 인프라 개발, 공급 과잉과 개발 지연 리스크"
+    },
+    {
+      "id": "8",
+      "title": "금리인하가 주식 시장에 미치는 영향 완전 분석",
+      "category": "stocks",
+      "publishedAt": "2025-01-24T12:00:00Z", 
+      "readTime": 12,
+      "mainTopics": ["금리정책", "통화정책", "섹터분석", "투자전략"],
+      "keyPoints": "자금 조달 비용 절감, 할인율 하락으로 기업 가치 상승, 섹터별 차별적 영향, 단계별 투자 전략"
+    }
+  ],
+  "upcomingTopics": {
+    "stocks": [
+      "ESG 투자와 지속가능 경영 분석",
+      "미국 주식 투자 가이드", 
+      "AI·반도체 관련주 심화 분석"
+    ],
+    "suggestions": {
+      "missingTopics": ["배당주 투자 전략", "가치투자 vs 성장투자", "글로벌 경제 지표 해석법"],
+      "trendingKeywords": ["ESG", "AI", "메타버스", "자율주행", "신재생에너지"],
+      "seasonalTopics": ["연말정산 절세 투자", "신년 포트폴리오 리밸런싱"]
+    }
+  }
+}
