@@ -21,7 +21,6 @@ export const getVisitorStats = (): VisitorStats => {
   }
 
   const stored = localStorage.getItem(STORAGE_KEY);
-  const today = new Date().toDateString();
   
   if (!stored) {
     const initialStats: VisitorStats = {
