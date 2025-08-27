@@ -1,0 +1,13 @@
+{
+  "totalPosts": 39,
+  "categories": [
+    "stocks",
+    "bitcoin",
+    "real-estate"
+  ],
+  "postsByCategory": {
+    "stocks": 13,
+    "bitcoin": 13,
+    "real-estate": 13
+  }
+}

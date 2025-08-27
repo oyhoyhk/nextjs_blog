@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-01-25T19:30:00Z",
-    "totalPosts": 18,
+    "lastUpdated": "2025-08-27T12:30:00Z",
+    "totalPosts": 21,
     "categories": {
-      "stocks": 4,
-      "bitcoin": 7,
-      "real-estate": 7
+      "stocks": 5,
+      "bitcoin": 8,
+      "real-estate": 8
     }
   },
   "posts": [
@@ -170,6 +170,33 @@
       "readTime": 9,
       "mainTopics": ["기관투자자", "ETF", "투자전략", "시장분석", "제도화"],
       "keyPoints": "글로벌 기관투자자의 암호화폐 참여 현황, 투자 패턴 분석, 개인투자자를 위한 인사이트"
+    },
+    {
+      "id": "19",
+      "title": "배당주 투자 전략: 안정적 수익 창출 완벽 가이드",
+      "category": "stocks",
+      "publishedAt": "2025-08-27T10:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["배당주", "배당수익률", "포트폴리오", "리스크관리", "세금효율화"],
+      "keyPoints": "우량 배당주 선별 기준, 국내외 투자 전략, 포트폴리오 구성과 세무 최적화 방법"
+    },
+    {
+      "id": "20",
+      "title": "알트코인 선별 투자 전략: 차세대 암호화폐 발굴법",
+      "category": "bitcoin",
+      "publishedAt": "2025-08-27T11:00:00Z",
+      "readTime": 9,
+      "mainTopics": ["알트코인", "블록체인", "DeFi", "기술분석", "리스크관리"],
+      "keyPoints": "알트코인 분류별 특성, 체계적 선별 기준, 투자 전략 구분과 리스크 관리 방법론"
+    },
+    {
+      "id": "21",
+      "title": "오피스텔 투자 완벽 가이드: 수익률과 리스크 분석",
+      "category": "real-estate",
+      "publishedAt": "2025-08-27T12:00:00Z",
+      "readTime": 10,
+      "mainTopics": ["오피스텔", "임대수익", "지역분석", "수익률", "투자전략"],
+      "keyPoints": "아파트 대비 장단점, 지역별 투자 특성, 수익률 극대화와 리스크 관리 전략"
     }
   ],
   "upcomingTopics": {
