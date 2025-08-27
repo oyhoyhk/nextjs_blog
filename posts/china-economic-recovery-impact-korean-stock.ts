@@ -1,8 +1,8 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '20',
-  title: '중국 경제 회복이 한국 증시에 미치는 영향 완전 분석',
+  id: '22',
+  title: '중국 경제 회복이 한국 증시에 미치는 영향 완벽 분석',
   slug: 'china-economic-recovery-impact-korean-stock',
   category: 'stocks',
   excerpt: '중국 경제의 점진적 회복이 한국 증시에 미치는 다각적 영향을 분석하고, 수혜 업종과 투자 전략을 제시합니다.',
@@ -293,7 +293,7 @@ export const post: BlogPost = {
 **시장은 항상 예상보다 빠르게 반응합니다.** 중국 회복 신호가 명확해질 때까지 기다리면 이미 주가에 상당 부분 반영된 후일 수 있습니다. 선행 지표를 주시하며 조기 포지셔닝하되, 리스크 관리는 철저히 하시기 바랍니다.
 
 중국과 한국의 경제적 연결고리를 이해하고 적절히 활용한다면, 이번 중국 회복 사이클에서 의미 있는 투자 수익을 거둘 수 있을 것입니다.`,
-  publishedAt: '2025-01-26T10:00:00Z',
+  publishedAt: '2025-08-27T14:00:00Z',
   readTime: 11,
   tags: ['중국경제', '한국증시', '수출기업', '화학주', '철강주']
 };

@@ -1,7 +1,7 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '22',
+  id: '23',
   title: '글로벌 인플레이션과 비트코인의 헤지 자산 역할 분석',
   slug: 'global-inflation-bitcoin-hedge-asset-analysis',
   category: 'bitcoin',
@@ -408,7 +408,7 @@ export const post: BlogPost = {
 핵심은 **과도한 기대나 맹신을 피하고, 체계적이고 규칙적인 접근**을 하는 것입니다. 인플레이션과 비트코인의 관계를 지속적으로 모니터링하며, 시장 환경 변화에 따라 전략을 조정하세요.
 
 장기적으로 비트코인이 디지털 골드로서 확고한 지위를 확립한다면, 인플레이션 헤지 자산으로서의 역할도 더욱 안정적이 될 것입니다. 이러한 발전 과정에서 현명한 투자자가 되시기 바랍니다.`,
-  publishedAt: '2025-01-26T12:00:00Z',
+  publishedAt: '2025-08-27T15:00:00Z',
   readTime: 13,
   tags: ['인플레이션헤지', '비트코인투자', '거시경제', '자산배분', '위험관리']
 };

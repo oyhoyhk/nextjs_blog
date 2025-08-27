@@ -1,7 +1,7 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '20',
+  id: '28',
   title: '미국 주식 투자 완벽 가이드',
   slug: 'us-stock-investment-complete-guide',
   category: 'stocks',
@@ -902,7 +902,7 @@ Form W-8BEN:
 - 후배 투자자 멘토링
 
 미국 주식 투자는 어렵지만 충분히 보람 있는 여정입니다. 체계적인 준비와 꾸준한 학습을 통해 여러분도 성공적인 글로벌 투자자가 되시기 바랍니다.`,
-  publishedAt: '2025-01-25T20:30:00Z',
+  publishedAt: '2025-08-27T20:00:00Z',
   readTime: 12,
   tags: ['미국주식', '해외투자', '글로벌투자', 'ETF']
 };

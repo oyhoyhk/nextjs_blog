@@ -1,7 +1,7 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '21',
+  id: '26',
   title: '라이트닝 네트워크와 비트코인 결제 생태계 전망',
   slug: 'lightning-network-bitcoin-payment-ecosystem',
   category: 'bitcoin',
@@ -330,7 +330,7 @@ Alice → Charlie → David → Bob
 **성공의 열쇠는 단순함**입니다. 복잡한 기술을 얼마나 간단하고 직관적으로 만들 수 있느냐가 대중 채택의 관건이 될 것입니다. 이 분야에 관심 있는 투자자라면 기술 발전과 함께 사용자 경험 개선에 주목하시기 바랍니다.
 
 비트코인과 라이트닝 네트워크가 만들어갈 새로운 결제 생태계의 발전을 지켜보며, 변화하는 금융 환경에서의 투자 기회를 놓치지 마시기 바랍니다.`,
-  publishedAt: '2025-01-26T11:00:00Z',
+  publishedAt: '2025-08-27T18:00:00Z',
   readTime: 10,
   tags: ['라이트닝네트워크', '비트코인결제', '블록체인기술', '핀테크', '결제시스템']
 };

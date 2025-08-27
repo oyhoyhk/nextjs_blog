@@ -1,7 +1,7 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '27',
+  id: '24',
   title: '해외 부동산 투자 가이드: 동남아시아 신흥 시장 분석',
   slug: 'overseas-real-estate-investment-southeast-asia',
   category: 'real-estate',
@@ -263,7 +263,7 @@ export const post: BlogPost = {
 하지만 환율 변동, 정치적 리스크, 법률 제도의 차이 등 다양한 위험 요소가 존재하므로 충분한 사전 조사와 현지 전문가의 도움이 필요합니다. 무엇보다 본인의 투자 목표와 위험 감수 능력에 맞는 국가와 투자 방식을 선택하는 것이 중요합니다.
 
 성공적인 해외 부동산 투자를 위해서는 단순한 수익률 추구보다는 장기적인 관점에서 해당 국가의 경제 발전과 함께 성장할 수 있는 투자 전략을 수립하시기 바랍니다.`,
-  publishedAt: '2025-01-26T17:00:00Z',
+  publishedAt: '2025-08-27T16:00:00Z',
   readTime: 11,
   tags: ['해외부동산', '동남아시아투자', '베트남부동산', '태국부동산', '해외투자']
 };

@@ -1,7 +1,7 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '30',
+  id: '27',
   title: '상가 부동산 투자 완벽 가이드 - 수익형 부동산의 핵심',
   slug: 'commercial-real-estate-investment-guide',
   category: 'real-estate',
@@ -317,7 +317,7 @@ export const post: BlogPost = {
 - 최소 6개월 이상 시장 조사 후 투자 결정
 
 상가 투자는 높은 수익을 기대할 수 있지만, 그만큼 전문성과 경험이 필요한 투자 영역입니다. 충분한 준비와 신중한 접근을 통해 성공적인 상가 투자를 실현하시기 바랍니다.`,
-  publishedAt: '2025-08-26T12:00:00Z',
+  publishedAt: '2025-08-27T19:00:00Z',
   readTime: 10,
   tags: ['상가투자', '상권분석', '임대수익', '로드샵', '근린상가', '부동산투자']
 };
