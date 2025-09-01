@@ -47,15 +47,15 @@ export const post: BlogPost = {
 
 ### 솔라나 생태계 투자 포트폴리오
 
-#### 1단계: 기본 자산 (60%)
+<h4>1단계: 기본 자산 (60%)</h4>
 - **솔라나(SOL)**: 생태계의 기축통화, 35%
 - **주요 DeFi 토큰**: Jupiter(JUP), Raydium(RAY), 25%
 
-#### 2단계: 성장 섹터 (25%)
+<h4>2단계: 성장 섹터 (25%)</h4>
 - **NFT/게임**: STEPN(GMT), Star Atlas(ATLAS)
 - **인프라**: Helium(HNT), Render(RNDR)
 
-#### 3단계: 신규/실험적 프로젝트 (15%)
+<h4>3단계: 신규/실험적 프로젝트 (15%)</h4>
 - **밈코인**: BONK, Dogwifhat(WIF) 등
 - **신규 DApp**: 솔라나 해커톤 우승작들
 

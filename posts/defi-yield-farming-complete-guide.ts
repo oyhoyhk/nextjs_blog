@@ -66,7 +66,7 @@ export const post: BlogPost = {
 
 ### 1. 이더리움 생태계
 
-#### Uniswap V3
+<h4>Uniswap V3</h4>
 **특징**
 - 집중 유동성 제공으로 높은 자본 효율성
 - 수수료 티어 선택 가능 (0.05%, 0.3%, 1%)
@@ -76,7 +76,7 @@ export const post: BlogPost = {
 - 활성 유동성 관리 필요
 - 비영구적 손실 최소화
 
-#### Curve Finance
+<h4>Curve Finance</h4>
 **특징**
 - 스테이블코인 특화 AMM
 - 낮은 슬리피지와 높은 효율성
@@ -88,7 +88,7 @@ export const post: BlogPost = {
 
 ### 2. 레이어2 솔루션
 
-#### Polygon 생태계
+<h4>Polygon 생태계</h4>
 **장점**
 - 낮은 가스비 (이더리움 대비 1/100)
 - 빠른 거래 속도
@@ -98,7 +98,7 @@ export const post: BlogPost = {
 - QuickSwap, SushiSwap, Balancer
 - Aave, Compound (폴리곤 버전)
 
-#### Arbitrum & Optimism
+<h4>Arbitrum & Optimism</h4>
 - 이더리움 L2 솔루션
 - 메인넷과 유사한 보안성
 - 점진적 가스비 절감

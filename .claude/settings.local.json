@@ -3,7 +3,8 @@
     "allow": [
       "Bash(dir:*)",
       "Bash(touch:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(rg:*)"
     ],
     "deny": [],
     "ask": []

@@ -41,17 +41,37 @@ interface BlogPost {
 ## 새 글 작성 방법
 
 ### 1. 파일 위치
-- 수정 파일: `src/data/blogPosts.ts`
-- blogPosts 배열에 새로운 객체 추가
+- 새 파일 생성: `posts/[slug].ts`
+- TypeScript 파일로 각 포스트를 개별 파일로 관리
 
-### 2. ID 규칙
-- 기존 마지막 ID + 1 (현재 마지막 ID: '8')
-- 문자열 형태로 입력
+### 2. 파일 구조
+각 포스트는 다음과 같은 TypeScript 파일 구조를 따릅니다:
 
-### 3. 슬러그(slug) 규칙
-- 영문 소문자, 하이픈(-) 구분
+```typescript
+import { BlogPost } from '../src/types';
+
+export const post: BlogPost = {
+  id: 'unique-id',
+  title: '글 제목',
+  slug: 'url-friendly-slug',
+  category: 'stocks' | 'bitcoin' | 'real-estate',
+  excerpt: '글 요약 (한 줄)',
+  content: `# 마크다운 내용
+
+본문...
+  `,
+  publishedAt: '2025-01-25T10:00:00Z',
+  readTime: 5,
+  tags: ['태그1', '태그2', '태그3']
+};
+```
+
+### 3. ID 및 파일명 규칙
+- ID: 고유 식별자 (문자열)
+- 파일명: `[slug].ts` 형태로 생성
+- 슬러그: 영문 소문자, 하이픈(-) 구분
 - 제목의 핵심 키워드 포함
-- 예: 'tesla-stock-analysis-2025'
+- 예: `tesla-stock-analysis-2025.ts`
 
 ### 4. 카테고리 값
 - 주식: 'stocks'
@@ -60,7 +80,7 @@ interface BlogPost {
 
 ### 5. 콘텐츠 작성 가이드
 
-#### 마크다운 구조
+#### 마크다운 구조 (content 필드 내부)
 ```markdown
 # 메인 제목
 
@@ -80,6 +100,11 @@ interface BlogPost {
 ## 결론
 ```
 
+**주의사항:**
+- <h4> 태그 사용: `<h4>제목</h4>` 형태로 작성
+- 코드 블록은 ``` 사용하지 않음
+- 템플릿 리터럴 내에서 백틱은 \` 로 이스케이프
+
 #### 글 길이 가이드
 - 읽기 시간 4-6분: 1,500-2,500자
 - 읽기 시간 7-10분: 3,000-4,000자
@@ -90,7 +115,13 @@ interface BlogPost {
 - 종목명, 투자 주제, 분석 키워드 포함
 - 예: ['삼성전자', '반도체', '투자분석', 'AI']
 
-### 6. 글 작성 시 고려사항
+### 6. 새 파일 생성 과정
+1. `/posts/` 디렉토리에 `[slug].ts` 파일 생성
+2. 위 템플릿 구조 복사하여 내용 작성
+3. 각 필드에 적절한 값 입력
+4. content 필드에 마크다운 형식으로 본문 작성
+
+### 7. 글 작성 시 고려사항
 
 #### 투자 블로그 톤앤매너
 - 객관적이고 분석적인 어조
