@@ -45,23 +45,23 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               href={`/${categorySlug}/${post.slug}`}
               className="block p-6"
             >
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <h2 className="text-xl font-semibold text-card-foreground hover:text-accent mb-3">
+              <div className="flex items-start justify-between gap-6">
+                <div className="flex-1 min-w-0">
+                  <h2 className="text-xl font-semibold text-card-foreground hover:text-accent mb-3 line-clamp-2">
                     {post.title}
                   </h2>
-                  <p className="text-muted-foreground mb-4 leading-relaxed">
+                  <p className="text-muted-foreground mb-4 leading-relaxed line-clamp-3">
                     {post.excerpt}
                   </p>
                   
-                  <div className="flex items-center text-sm text-muted-foreground space-x-4 mb-3">
-                    <span className="flex items-center">
+                  <div className="flex flex-wrap items-center text-sm text-muted-foreground gap-4 mb-4">
+                    <span className="flex items-center shrink-0">
                       <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                       </svg>
                       {post.readTime}분 읽기
                     </span>
-                    <span className="flex items-center">
+                    <span className="flex items-center shrink-0">
                       <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                       </svg>
@@ -70,18 +70,23 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                   </div>
 
                   <div className="flex flex-wrap gap-2">
-                    {post.tags.map((tag) => (
+                    {post.tags.slice(0, 4).map((tag) => (
                       <span
                         key={tag}
-                        className="text-xs bg-accent/10 text-accent px-2 py-1 rounded-full"
+                        className="text-xs bg-accent/10 text-accent px-2 py-1 rounded-full whitespace-nowrap"
                       >
                         #{tag}
                       </span>
                     ))}
+                    {post.tags.length > 4 && (
+                      <span className="text-xs text-muted-foreground px-2 py-1">
+                        +{post.tags.length - 4}개 더
+                      </span>
+                    )}
                   </div>
                 </div>
                 
-                <div className="ml-6 text-accent">
+                <div className="flex items-center text-accent shrink-0">
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                   </svg>

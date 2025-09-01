@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-08-28T00:30:00Z",
-    "totalPosts": 33,
+    "lastUpdated": "2025-09-01T18:30:00Z",
+    "totalPosts": 42,
     "categories": {
-      "stocks": 9,
-      "bitcoin": 12,
-      "real-estate": 12
+      "stocks": 12,
+      "bitcoin": 15,
+      "real-estate": 15
     }
   },
   "posts": [
@@ -305,6 +305,87 @@
       "readTime": 13,
       "mainTopics": ["빌라투자", "다세대주택", "연립주택", "소자본투자", "임대수익", "부동산투자"],
       "keyPoints": "빌라 투자의 장단점과 성공적인 투자 전략을 완벽 분석"
+    },
+    {
+      "id": "34",
+      "title": "인도 주식 시장 투자 가이드 - 신흥시장의 거대한 기회",
+      "category": "stocks",
+      "publishedAt": "2025-09-01T10:00:00Z",
+      "readTime": 6,
+      "mainTopics": ["인도주식", "신흥시장", "해외투자", "IT서비스", "장기투자", "글로벌투자"],
+      "keyPoints": "세계에서 가장 빠르게 성장하는 인도 경제와 주식 시장의 투자 기회 분석"
+    },
+    {
+      "id": "35",
+      "title": "솔라나 생태계 투자 가이드 - 이더리움의 강력한 대안",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-01T11:00:00Z",
+      "readTime": 7,
+      "mainTopics": ["솔라나", "SOL", "DeFi", "NFT", "블록체인생태계", "암호화폐투자"],
+      "keyPoints": "고성능 블록체인 솔라나와 그 생태계 프로젝트들의 투자 가치와 전략"
+    },
+    {
+      "id": "36",
+      "title": "부동산 경매 실전 투자 전략",
+      "category": "real-estate",
+      "publishedAt": "2025-09-01T12:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["부동산경매", "경매투자", "권리분석", "명도", "부동산투자", "투자전략"],
+      "keyPoints": "부동산 경매의 기초부터 실전 투자까지, 경매로 높은 수익을 창출하는 전략"
+    },
+    {
+      "id": "37",
+      "title": "일본 주식 시장 투자 가이드 - 잃어버린 30년 이후의 기회",
+      "category": "stocks",
+      "publishedAt": "2025-09-01T13:00:00Z",
+      "readTime": 7,
+      "mainTopics": ["일본주식", "닛케이지수", "해외투자", "엔화투자", "아시아주식", "선진국투자"],
+      "keyPoints": "30년간 침체를 겪었던 일본 주식 시장의 구조적 변화와 새로운 투자 기회"
+    },
+    {
+      "id": "38",
+      "title": "Web3 게이밍 토큰 투자 가이드 - 게임 파이(GameFi)의 미래",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-01T14:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["Web3게임", "GameFi", "P2E", "NFT게임", "게임토큰", "메타버스"],
+      "keyPoints": "Play-to-Earn 모델로 주목받는 Web3 게이밍 생태계와 게임 파이 토큰 투자 분석"
+    },
+    {
+      "id": "39",
+      "title": "생활형 숙박시설 투자 가이드 - 호텔 대신 레지던스",
+      "category": "real-estate",
+      "publishedAt": "2025-09-01T15:00:00Z",
+      "readTime": 9,
+      "mainTopics": ["생활형숙박시설", "레지던스호텔", "서비스드아파트먼트", "부동산투자", "숙박업투자", "상업용부동산"],
+      "keyPoints": "코로나19 이후 주목받는 생활형 숙박시설의 투자 특성과 수익 모델 완벽 분석"
+    },
+    {
+      "id": "40",
+      "title": "중국 주식 시장 투자 가이드 - 세계 2위 경제대국의 기회와 리스크",
+      "category": "stocks",
+      "publishedAt": "2025-09-01T16:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["중국주식", "신흥시장", "지정학적리스크", "전기차", "이커머스", "아시아투자"],
+      "keyPoints": "세계 최대 소비 시장으로 부상하는 중국 주식 시장의 투자 기회와 지정학적 리스크 분석"
+    },
+    {
+      "id": "41",
+      "title": "레이어2 블록체인 투자 가이드 - 이더리움 확장성 솔루션",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-01T17:00:00Z",
+      "readTime": 8,
+      "mainTopics": ["레이어2", "아비트럼", "옵티미즘", "폴리곤", "L2솔루션", "이더리움확장성"],
+      "keyPoints": "이더리움의 높은 수수료와 느린 속도를 해결하는 레이어2 솔루션들의 투자 기회 분석"
+    },
+    {
+      "id": "42",
+      "title": "대학가 원룸 투자 전략 - 안정적 임대 수요의 황금알",
+      "category": "real-estate",
+      "publishedAt": "2025-09-01T18:00:00Z",
+      "readTime": 10,
+      "mainTopics": ["대학가투자", "원룸투자", "임대수익", "대학생임대", "부동산투자", "학생임대"],
+      "keyPoints": "대학생이라는 안정적 임대 수요를 바탕으로 한 대학가 원룸 투자의 특징과 성공 전략"
     }
   ],
   "upcomingTopics": {

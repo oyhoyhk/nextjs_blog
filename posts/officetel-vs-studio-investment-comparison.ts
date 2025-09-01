@@ -1,11 +1,11 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '23',
-  title: '오피스텔 vs 원룸 투자 수익성 완벽 비교 분석',
-  slug: 'officetel-vs-studio-investment-comparison',
+  id: '36',
+  title: '부동산 경매 실전 투자 전략',
+  slug: 'real-estate-auction-practical-investment-strategy',
   category: 'real-estate',
-  excerpt: '소형 임대용 부동산 투자의 양대 옵션인 오피스텔과 원룸의 투자수익률, 리스크, 관리 포인트를 종합 비교 분석합니다.',
+  excerpt: '부동산 경매의 기초부터 실전 투자까지, 경매 부동산으로 높은 수익을 창출하는 체계적인 투자 전략을 제시합니다.',
   content: `# 오피스텔 vs 원룸 투자 수익성 완벽 비교 분석
 
 ## 소형 임대용 부동산 투자 트렌드

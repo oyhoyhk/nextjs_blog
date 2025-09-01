@@ -5,9 +5,9 @@ import VisitorStats from '@/components/VisitorStats';
 import PopularPosts from '@/components/PopularPosts';
 
 export default function Home() {
-  const recentPosts = blogPosts.slice(0, 6).sort((a, b) => 
-    new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  );
+  const recentPosts = blogPosts
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, 6);
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -57,27 +57,27 @@ export default function Home() {
                 href={`/${post.category}/${post.slug}`}
                 className="group block hover:bg-muted p-4 rounded-lg transition-colors"
               >
-                <div className="flex items-start justify-between">
-                  <div className="flex-1">
-                    <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent mb-2">
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1 min-w-0">
+                    <h3 className="text-lg font-semibold text-card-foreground group-hover:text-accent mb-2 line-clamp-2">
                       {post.title}
                     </h3>
-                    <p className="text-muted-foreground mb-3 line-clamp-2">
+                    <p className="text-muted-foreground mb-3 line-clamp-2 leading-relaxed">
                       {post.excerpt}
                     </p>
-                    <div className="flex items-center text-sm text-muted-foreground space-x-4">
-                      <span className="bg-muted px-2 py-1 rounded">
+                    <div className="flex flex-wrap items-center text-sm text-muted-foreground gap-3">
+                      <span className="bg-muted px-2 py-1 rounded shrink-0">
                         {categories.find(cat => cat.slug === post.category)?.name}
                       </span>
-                      <span>{post.readTime}분 읽기</span>
-                      <span>{new Date(post.publishedAt).toLocaleDateString('ko-KR')}</span>
+                      <span className="shrink-0">{post.readTime}분 읽기</span>
+                      <span className="shrink-0">{new Date(post.publishedAt).toLocaleDateString('ko-KR')}</span>
                     </div>
                   </div>
-                  <div className="ml-4 flex flex-wrap gap-1">
+                  <div className="flex flex-col gap-1 shrink-0">
                     {post.tags.slice(0, 2).map((tag) => (
                       <span
                         key={tag}
-                        className="text-xs bg-accent/10 text-accent px-2 py-1 rounded"
+                        className="text-xs bg-accent/10 text-accent px-2 py-1 rounded whitespace-nowrap"
                       >
                         {tag}
                       </span>

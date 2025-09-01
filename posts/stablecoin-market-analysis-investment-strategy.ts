@@ -1,11 +1,11 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '26',
-  title: '스테이블코인 시장 분석과 투자 전략',
-  slug: 'stablecoin-market-analysis-investment-strategy',
+  id: '35',
+  title: '암호화폐 대체 투자 전략 가이드',
+  slug: 'cryptocurrency-alternative-investment-strategy',
   category: 'bitcoin',
-  excerpt: '급성장하는 스테이블코인 시장의 현황과 각 스테이블코인의 특성, 투자 및 활용 전략을 분석합니다.',
+  excerpt: '비트코인과 이더리움 외에 주목할 만한 알트코인들과 대체 투자 전략을 분석하여 포트폴리오 다변화 방안을 제시합니다.',
   content: `# 스테이블코인 시장 분석과 투자 전략
 
 ## 스테이블코인이란

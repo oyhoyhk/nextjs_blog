@@ -34,12 +34,22 @@ import { post as post30 } from '../../posts/real-estate-auction-investment-strat
 import { post as post31 } from '../../posts/value-vs-growth-investment-strategy';
 import { post as post32 } from '../../posts/nft-investment-complete-guide';
 import { post as post33 } from '../../posts/villa-investment-strategy-guide';
+import { post as post34 } from '../../posts/india-stock-market-investment-guide';
+import { post as post35 } from '../../posts/solana-ecosystem-investment-guide';
+import { post as post36 } from '../../posts/real-estate-auction-practical-investment-strategy';
+import { post as post37 } from '../../posts/japan-stock-market-investment-guide';
+import { post as post38 } from '../../posts/web3-gaming-token-investment-guide';
+import { post as post39 } from '../../posts/lifestyle-accommodation-investment-guide';
+import { post as post40 } from '../../posts/china-stock-market-investment-guide';
+import { post as post41 } from '../../posts/layer2-blockchain-investment-guide';
+import { post as post42 } from '../../posts/university-area-studio-investment-strategy';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
   post1, post2, post3, post4, post5, post6, post7, post8, post9, post10,
   post11, post12, post13, post14, post15, post16, post17, post18, post19, post20, post21,
-  post22, post23, post24, post25, post26, post27, post28, post29, post30, post31, post32, post33
+  post22, post23, post24, post25, post26, post27, post28, post29, post30, post31, post32, post33,
+  post34, post35, post36, post37, post38, post39, post40, post41, post42
 ];
 
 // ID로 정렬

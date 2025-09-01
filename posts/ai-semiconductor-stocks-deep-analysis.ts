@@ -1,11 +1,11 @@
 import { BlogPost } from '../src/types';
 
 export const post: BlogPost = {
-  id: '21',
-  title: 'AI·반도체 관련주 심화 분석',
-  slug: 'ai-semiconductor-stocks-deep-analysis',
+  id: '34',
+  title: '글로벌 인플레이션과 주식 투자 전략',
+  slug: 'global-inflation-stock-investment-strategy',
   category: 'stocks',
-  excerpt: '인공지능과 반도체 산업의 투자 기회를 심층 분석합니다. AI 혁명의 핵심 기업들과 반도체 밸류체인별 투자 전략을 제시합니다.',
+  excerpt: '글로벌 인플레이션 환경에서 효과적인 주식 투자 전략을 분석하고, 인플레이션 헤지 자산과 섹터별 대응 방안을 제시합니다.',
   content: `# AI·반도체 관련주 심화 분석
 
 ## 개요
