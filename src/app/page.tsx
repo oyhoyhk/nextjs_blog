@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { categories } from '@/data/categories';
 import { blogPosts } from '@/data/blogPosts';
-import VisitorStats from '@/components/VisitorStats';
 import PopularPosts from '@/components/PopularPosts';
 
 export default function Home() {
@@ -41,9 +40,6 @@ export default function Home() {
         ))}
       </div>
 
-      <div className="mb-8">
-        <VisitorStats />
-      </div>
 
       <div className="bg-card rounded-lg shadow-md p-6 border border-border">
         <h2 className="text-2xl font-bold text-card-foreground mb-6">최근 게시글</h2>

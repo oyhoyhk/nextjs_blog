@@ -100,27 +100,83 @@ export default async function PostPage({ params }: PostPageProps) {
         <div 
           className="text-card-foreground leading-relaxed"
           dangerouslySetInnerHTML={{
-            __html: post.content
-              .replace(/^# /gm, '<h1 class="text-3xl font-bold text-card-foreground mt-8 mb-4">')
-              .replace(/^## /gm, '<h2 class="text-2xl font-semibold text-card-foreground mt-6 mb-3">')
-              .replace(/^### /gm, '<h3 class="text-xl font-medium text-card-foreground mt-4 mb-2">')
-              .replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-card-foreground">$1</strong>')
-              .replace(/^\- /gm, '<li class="ml-4 mb-2">')
-              .replace(/^(\d+\. )/gm, '<li class="ml-4 mb-2 list-decimal">')
-              .split('\n')
-              .map(line => {
-                if (line.trim().startsWith('<h') || line.trim().startsWith('<li')) {
-                  return line;
+            __html: (() => {
+              let html = post.content;
+              
+              // 헤딩 처리
+              html = html.replace(/^# (.+)$/gm, '<h1 class="text-3xl font-bold text-card-foreground mt-8 mb-4 first:mt-0">$1</h1>');
+              html = html.replace(/^## (.+)$/gm, '<h2 class="text-2xl font-semibold text-card-foreground mt-6 mb-3">$1</h2>');
+              html = html.replace(/^### (.+)$/gm, '<h3 class="text-xl font-medium text-card-foreground mt-4 mb-2">$1</h3>');
+              
+              // 강조 텍스트 처리
+              html = html.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-card-foreground">$1</strong>');
+              
+              // 리스트 처리를 위해 먼저 전체를 줄 단위로 분할
+              const lines = html.split('\n');
+              const processedLines = [];
+              let inUnorderedList = false;
+              let inOrderedList = false;
+              
+              for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const trimmedLine = line.trim();
+                
+                // 순서 없는 리스트 처리
+                if (trimmedLine.match(/^- .+/)) {
+                  if (!inUnorderedList) {
+                    processedLines.push('<ul class="list-disc ml-6 mb-4 space-y-2">');
+                    inUnorderedList = true;
+                  }
+                  const content = trimmedLine.replace(/^- /, '');
+                  processedLines.push(`<li class="text-card-foreground">${content}</li>`);
+                } else {
+                  if (inUnorderedList) {
+                    processedLines.push('</ul>');
+                    inUnorderedList = false;
+                  }
                 }
-                if (line.trim() === '') {
-                  return '<br>';
+                
+                // 순서 있는 리스트 처리
+                if (trimmedLine.match(/^\d+\. .+/)) {
+                  if (!inOrderedList) {
+                    processedLines.push('<ol class="list-decimal ml-6 mb-4 space-y-2">');
+                    inOrderedList = true;
+                  }
+                  const content = trimmedLine.replace(/^\d+\. /, '');
+                  processedLines.push(`<li class="text-card-foreground">${content}</li>`);
+                } else if (!trimmedLine.match(/^- .+/)) {
+                  if (inOrderedList) {
+                    processedLines.push('</ol>');
+                    inOrderedList = false;
+                  }
                 }
-                if (!line.trim().startsWith('<')) {
-                  return `<p class="mb-4 leading-relaxed">${line}</p>`;
+                
+                // 일반 텍스트 및 헤딩 처리
+                if (!trimmedLine.match(/^- .+/) && !trimmedLine.match(/^\d+\. .+/)) {
+                  if (trimmedLine === '') {
+                    processedLines.push('<br class="mb-4">');
+                  } else if (!trimmedLine.startsWith('<h')) {
+                    if (!line.startsWith('<')) {
+                      processedLines.push(`<p class="mb-4 leading-relaxed text-card-foreground">${line}</p>`);
+                    } else {
+                      processedLines.push(line);
+                    }
+                  } else {
+                    processedLines.push(line);
+                  }
                 }
-                return line;
-              })
-              .join('')
+              }
+              
+              // 열린 리스트 태그 닫기
+              if (inUnorderedList) {
+                processedLines.push('</ul>');
+              }
+              if (inOrderedList) {
+                processedLines.push('</ol>');
+              }
+              
+              return processedLines.join('');
+            })()
           }}
         />
       </article>

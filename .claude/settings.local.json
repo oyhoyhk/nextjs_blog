@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(dir:*)",
-      "Bash(touch:*)"
+      "Bash(touch:*)",
+      "Bash(rm:*)"
     ],
     "deny": [],
     "ask": []
