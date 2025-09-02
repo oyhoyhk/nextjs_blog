@@ -4,7 +4,8 @@
       "Bash(dir:*)",
       "Bash(touch:*)",
       "Bash(rm:*)",
-      "Bash(rg:*)"
+      "Bash(rg:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
