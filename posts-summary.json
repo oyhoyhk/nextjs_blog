@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "lastUpdated": "2025-09-03T03:30:00Z",
-    "totalPosts": 63,
+    "lastUpdated": "2025-09-03T17:00:00Z",
+    "totalPosts": 72,
     "categories": {
-      "stocks": 19,
-      "bitcoin": 22,
-      "real-estate": 22
+      "stocks": 22,
+      "bitcoin": 25,
+      "real-estate": 25
     }
   },
   "posts": [
@@ -575,6 +575,87 @@
       "readTime": 24,
       "mainTopics": ["부동산크라우드펀딩", "소액부동산투자", "P2P투자", "테라펀딩", "피플펀드"],
       "keyPoints": "부동산 크라우드펀딩의 작동 원리부터 플랫폼 선택, 리스크 관리까지 소액 투자자를 위한 완벽 전략"
+    },
+    {
+      "id": "64",
+      "title": "소셜 트레이딩 투자 전략 완벽 가이드 - 전문가 따라하기로 수익률 극대화",
+      "category": "stocks",
+      "publishedAt": "2025-09-03T04:00:00Z",
+      "readTime": 18,
+      "mainTopics": ["소셜트레이딩", "카피트레이딩", "미러트레이딩", "eToro"],
+      "keyPoints": "소셜 트레이딩 플랫폼 비교, 전문가 선별 기준, 리스크 관리 방법, 수수료 구조 분석"
+    },
+    {
+      "id": "65",
+      "title": "암호화폐 대출 및 이자농업(Yield Farming) 완벽 가이드 - DeFi 수익 극대화 전략",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-03T05:00:00Z",
+      "readTime": 22,
+      "mainTopics": ["DeFi대출", "이자농업", "YieldFarming", "유동성공급"],
+      "keyPoints": "DeFi 프로토콜 비교, 이자농업 전략, 리스크 관리, 세금 고려사항, 수익률 계산법"
+    },
+    {
+      "id": "66",
+      "title": "글로벌 부동산 투자 완벽 가이드 - 해외 부동산으로 포트폴리오 다각화",
+      "category": "real-estate",
+      "publishedAt": "2025-09-03T03:00:00Z",
+      "readTime": 20,
+      "mainTopics": ["글로벌부동산", "해외부동산", "해외투자", "부동산펀드"],
+      "keyPoints": "국가별 투자 전략, 세금 및 법률 고려사항, 리스크 관리 방안, 투자 방법별 비교"
+    },
+    {
+      "id": "67",
+      "title": "옵션 투자 완벽 가이드 - 파생상품으로 수익률 극대화하는 전략",
+      "category": "stocks",
+      "publishedAt": "2025-09-03T08:00:00Z",
+      "readTime": 22,
+      "mainTopics": ["옵션투자", "파생상품", "콜옵션", "풋옵션"],
+      "keyPoints": "옵션 기본 개념, 다양한 옵션 전략, 리스크 관리, 거래 도구와 플랫폼, 세금 처리"
+    },
+    {
+      "id": "68",
+      "title": "NFT와 메타버스 투자 완벽 가이드 - 디지털 자산으로 미래 수익 창출",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-03T09:00:00Z",
+      "readTime": 24,
+      "mainTopics": ["NFT투자", "메타버스", "디지털자산", "Web3"],
+      "keyPoints": "NFT와 메타버스 투자 기회, 주요 플랫폼 분석, 투자 전략, 리스크 관리, 미래 전망"
+    },
+    {
+      "id": "69",
+      "title": "부동산 경매 투자 완벽 가이드 - 경매로 수익률 극대화하는 전문가 전략",
+      "category": "real-estate",
+      "publishedAt": "2025-09-03T10:00:00Z",
+      "readTime": 26,
+      "mainTopics": ["부동산경매", "경매투자", "법원경매", "공매"],
+      "keyPoints": "경매 절차와 참여 방법, 투자 전략, 리스크 관리, 세금과 비용, 성공 사례 분석"
+    },
+    {
+      "id": "70",
+      "title": "ESG 투자 전략 완벽 가이드 - 지속가능한 투자로 미래를 준비하세요",
+      "category": "stocks",
+      "publishedAt": "2025-09-03T05:00:00Z",
+      "readTime": 28,
+      "mainTopics": ["ESG투자", "지속가능투자", "환경투자", "사회적책임투자", "ESG평가"],
+      "keyPoints": "ESG 투자의 핵심 개념과 평가 방법, 국내외 ESG 우수 기업 분석, 포트폴리오 구성 전략"
+    },
+    {
+      "id": "71",
+      "title": "암호화폐 세금 및 절세 가이드 - 2025년 개정 세법 완벽 분석",
+      "category": "bitcoin",
+      "publishedAt": "2025-09-03T13:00:00Z",
+      "readTime": 26,
+      "mainTopics": ["암호화폐세금", "양도소득세", "절세전략", "세무신고", "기본공제"],
+      "keyPoints": "2025년 암호화폐 과세제도 완벽 이해, 합법적 절세 전략, 실전 세무신고 가이드"
+    },
+    {
+      "id": "72",
+      "title": "부동산 세금 최적화 가이드 - 2025년 개정 세법 완벽 분석",
+      "category": "real-estate",
+      "publishedAt": "2025-09-03T17:00:00Z",
+      "readTime": 30,
+      "mainTopics": ["부동산투자", "세금최적화", "양도소득세", "종합부동산세", "절세전략"],
+      "keyPoints": "2025년 개정된 부동산 관련 세법을 완벽 분석하고, 절세 전략부터 투자 최적화 방법까지 제공"
     }
   ],
   "upcomingTopics": {
