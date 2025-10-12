@@ -21,6 +21,10 @@
    - 부동산 시장 분석과 투자 전략
    - 기존 글: 서울 아파트 시장, 신도시 투자
 
+4. **경제 (economy)**
+   - 국내외 경제 동향과 거시경제 분석
+   - 주제: 금리 정책, 환율, 인플레이션, GDP 등
+
 ## 블로그 포스트 데이터 구조
 
 ### BlogPost Interface
@@ -29,7 +33,7 @@ interface BlogPost {
   id: string;           // 고유 ID (숫자 문자열)
   title: string;        // 글 제목
   slug: string;         // URL용 슬러그 (영문, 하이픈 구분)
-  category: string;     // 'stocks' | 'bitcoin' | 'real-estate'
+  category: string;     // 'stocks' | 'bitcoin' | 'real-estate' | 'economy'
   excerpt: string;      // 글 요약 (한 줄 요약)
   content: string;      // 마크다운 형식의 본문 내용
   publishedAt: string;  // ISO 8601 형식 날짜 (예: '2025-01-25T10:00:00Z')
@@ -54,7 +58,7 @@ export const post: BlogPost = {
   id: 'unique-id',
   title: '글 제목',
   slug: 'url-friendly-slug',
-  category: 'stocks' | 'bitcoin' | 'real-estate',
+  category: 'stocks' | 'bitcoin' | 'real-estate' | 'economy',
   excerpt: '글 요약 (한 줄)',
   content: `# 마크다운 내용
 
@@ -75,8 +79,9 @@ export const post: BlogPost = {
 
 ### 4. 카테고리 값
 - 주식: 'stocks'
-- 비트코인: 'bitcoin' 
+- 비트코인: 'bitcoin'
 - 부동산: 'real-estate'
+- 경제: 'economy'
 
 ### 5. 콘텐츠 작성 가이드
 
@@ -129,12 +134,33 @@ export const post: BlogPost = {
 - 리스크 요인 반드시 포함
 - 데이터와 팩트 기반 서술
 
-#### 주식 카테고리 특화 주제
+#### 카테고리별 특화 주제
+
+**주식 (stocks)**
 - 기업 분석 (재무제표, 사업 현황, 경쟁력)
 - 시장 동향 및 섹터 분석
 - 경제 지표와 주식 시장 연관성
 - 투자 전략 및 포트폴리오 구성
 - 글로벌 경제 이슈와 국내 증시 영향
+
+**비트코인 (bitcoin)**
+- 암호화폐 시장 동향 및 기술 분석
+- 블록체인 기술과 DeFi 생태계
+- 비트코인 및 알트코인 투자 전략
+- 규제 동향 및 제도권 진입
+
+**부동산 (real-estate)**
+- 부동산 시장 분석 및 가격 동향
+- 지역별 투자 전략
+- 전세/월세 시장 분석
+- 부동산 정책 및 세금
+
+**경제 (economy)**
+- 금리 정책 및 통화정책 분석
+- 환율 및 외환시장 동향
+- 인플레이션과 물가 전망
+- GDP 및 경기 사이클 분석
+- 국제 경제 이슈 및 무역 동향
 
 #### SEO 고려사항
 - 제목에 핵심 키워드 포함

@@ -18,5 +18,11 @@ export const categories: Category[] = [
     name: '부동산',
     slug: 'real-estate',
     description: '부동산 시장 분석과 투자 전략'
+  },
+  {
+    id: '4',
+    name: '경제',
+    slug: 'economy',
+    description: '국내외 경제 동향과 거시경제 분석'
   }
 ];
