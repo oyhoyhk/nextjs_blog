@@ -24,5 +24,17 @@ export const categories: Category[] = [
     name: '경제',
     slug: 'economy',
     description: '국내외 경제 동향과 거시경제 분석'
+  },
+  {
+    id: '5',
+    name: '퀀트 투자',
+    slug: 'quant',
+    description: '데이터 기반 퀀트 투자 전략과 알고리즘 트레이딩'
+  },
+  {
+    id: '6',
+    name: '경매',
+    slug: 'auction',
+    description: '부동산 경매 정보와 실전 투자 전략'
   }
 ];

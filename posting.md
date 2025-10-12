@@ -25,6 +25,14 @@
    - 국내외 경제 동향과 거시경제 분석
    - 주제: 금리 정책, 환율, 인플레이션, GDP 등
 
+5. **퀀트 투자 (quant)**
+   - 데이터 기반 퀀트 투자 전략과 알고리즘 트레이딩
+   - 주제: 팩터 투자, 백테스팅, 알고리즘 매매
+
+6. **경매 (auction)**
+   - 부동산 경매 정보와 실전 투자 전략
+   - 주제: 경매 낙찰, 권리분석, 명도
+
 ## 블로그 포스트 데이터 구조
 
 ### BlogPost Interface
@@ -33,7 +41,7 @@ interface BlogPost {
   id: string;           // 고유 ID (숫자 문자열)
   title: string;        // 글 제목
   slug: string;         // URL용 슬러그 (영문, 하이픈 구분)
-  category: string;     // 'stocks' | 'bitcoin' | 'real-estate' | 'economy'
+  category: string;     // 'stocks' | 'bitcoin' | 'real-estate' | 'economy' | 'quant' | 'auction'
   excerpt: string;      // 글 요약 (한 줄 요약)
   content: string;      // 마크다운 형식의 본문 내용
   publishedAt: string;  // ISO 8601 형식 날짜 (예: '2025-01-25T10:00:00Z')
@@ -58,7 +66,7 @@ export const post: BlogPost = {
   id: 'unique-id',
   title: '글 제목',
   slug: 'url-friendly-slug',
-  category: 'stocks' | 'bitcoin' | 'real-estate' | 'economy',
+  category: 'stocks' | 'bitcoin' | 'real-estate' | 'economy' | 'quant' | 'auction',
   excerpt: '글 요약 (한 줄)',
   content: `# 마크다운 내용
 
@@ -82,6 +90,8 @@ export const post: BlogPost = {
 - 비트코인: 'bitcoin'
 - 부동산: 'real-estate'
 - 경제: 'economy'
+- 퀀트 투자: 'quant'
+- 경매: 'auction'
 
 ### 5. 콘텐츠 작성 가이드
 
@@ -200,6 +210,20 @@ const allPosts: BlogPost[] = [
 - 인플레이션과 물가 전망
 - GDP 및 경기 사이클 분석
 - 국제 경제 이슈 및 무역 동향
+
+**퀀트 투자 (quant)**
+- 팩터 투자 전략 (가치, 모멘텀, 퀄리티 등)
+- 백테스팅 및 전략 검증
+- 알고리즘 트레이딩 시스템 구축
+- 포트폴리오 최적화 및 리밸런싱
+- 머신러닝 기반 투자 모델
+
+**경매 (auction)**
+- 부동산 경매 입찰 전략
+- 권리분석 및 법률 검토
+- 명도 절차 및 실전 사례
+- 경매 물건 발굴 및 분석
+- 경매 자금 조달 전략
 
 #### SEO 고려사항
 - 제목에 핵심 키워드 포함
