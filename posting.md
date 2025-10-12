@@ -125,8 +125,47 @@ export const post: BlogPost = {
 2. 위 템플릿 구조 복사하여 내용 작성
 3. 각 필드에 적절한 값 입력
 4. content 필드에 마크다운 형식으로 본문 작성
+5. **중요: `src/data/blogPosts.ts` 파일 업데이트**
 
-### 7. 글 작성 시 고려사항
+### 7. blogPosts.ts 업데이트 (필수)
+
+**⚠️ 새 포스트를 작성한 후 반드시 `src/data/blogPosts.ts` 파일을 업데이트해야 웹사이트에 표시됩니다.**
+
+#### 업데이트 방법
+
+1. `src/data/blogPosts.ts` 파일 열기
+2. 새 포스트 import 추가:
+```typescript
+import { post as postN } from '../../posts/[your-slug]';
+```
+3. `allPosts` 배열에 추가:
+```typescript
+const allPosts: BlogPost[] = [
+  post1, post2, ..., postN  // 새로 추가한 포스트 번호 추가
+];
+```
+
+#### 예시
+
+새로 `tesla-stock-analysis-2025.ts` 파일을 작성했다면:
+
+```typescript
+// 1. import 추가 (기존 import 아래에)
+import { post as post67 } from '../../posts/tesla-stock-analysis-2025';
+
+// 2. allPosts 배열에 추가
+const allPosts: BlogPost[] = [
+  post1, post2, post3, ..., post66, post67  // post67 추가
+];
+```
+
+#### 주의사항
+- 포스트 번호(postN)는 순차적으로 증가
+- import 경로는 정확히 파일명과 일치해야 함
+- 파일명에서 `.ts` 확장자는 제외
+- blogPosts.ts 업데이트 없이는 새 포스트가 웹사이트에 표시되지 않음
+
+### 8. 글 작성 시 고려사항
 
 #### 투자 블로그 톤앤매너
 - 객관적이고 분석적인 어조
@@ -198,6 +237,7 @@ export const post: BlogPost = {
 - [ ] 태그 3-5개 적절히 선정
 - [ ] 읽기 시간 적절히 설정
 - [ ] 슬러그 URL 친화적으로 생성
+- [ ] **src/data/blogPosts.ts 파일 업데이트 완료**
 
 ## 포스트 요약 관리 (posts-summary.json)
 

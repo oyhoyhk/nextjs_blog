@@ -43,13 +43,39 @@ import { post as post39 } from '../../posts/lifestyle-accommodation-investment-g
 import { post as post40 } from '../../posts/china-stock-market-investment-guide';
 import { post as post41 } from '../../posts/layer2-blockchain-investment-guide';
 import { post as post42 } from '../../posts/university-area-studio-investment-strategy';
+import { post as post43 } from '../../posts/interest-rate-hike-impact-on-stocks';
+import { post as post44 } from '../../posts/interest-rate-hike-impact-on-bitcoin';
+import { post as post45 } from '../../posts/interest-rate-hike-impact-on-real-estate';
+import { post as post46 } from '../../posts/interest-rate-cut-impact-on-stocks';
+import { post as post47 } from '../../posts/interest-rate-cut-impact-on-bitcoin';
+import { post as post48 } from '../../posts/interest-rate-cut-impact-on-real-estate';
+import { post as post49 } from '../../posts/dollar-index-comprehensive-guide';
+import { post as post50 } from '../../posts/ai-semiconductor-stocks-deep-analysis';
+import { post as post51 } from '../../posts/bitcoin-mining-investment-guide-2025';
+import { post as post52 } from '../../posts/cryptocurrency-alternative-investment-strategy';
+import { post as post53 } from '../../posts/dividend-stock-portfolio-strategy';
+import { post as post54 } from '../../posts/dividend-stocks-complete-guide';
+import { post as post55 } from '../../posts/esg-investment-complete-guide';
+import { post as post56 } from '../../posts/global-real-estate-investment-guide';
+import { post as post57 } from '../../posts/korea-ipo-investment-strategy-guide';
+import { post as post58 } from '../../posts/leisure-real-estate-investment-guide';
+import { post as post59 } from '../../posts/officetel-vs-studio-investment-comparison';
+import { post as post60 } from '../../posts/options-trading-strategy-guide';
+import { post as post61 } from '../../posts/real-estate-auction-investment-guide';
+import { post as post62 } from '../../posts/redevelopment-reconstruction-investment-guide';
+import { post as post63 } from '../../posts/small-cap-stock-investment-guide';
+import { post as post64 } from '../../posts/stablecoin-investment-guide-2025';
+import { post as post65 } from '../../posts/stablecoin-market-analysis-investment-strategy';
+import { post as post66 } from '../../posts/stock-tax-optimization-strategy-2025';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
   post1, post2, post3, post4, post5, post6, post7, post8, post9, post10,
   post11, post12, post13, post14, post15, post16, post17, post18, post19, post20, post21,
   post22, post23, post24, post25, post26, post27, post28, post29, post30, post31, post32, post33,
-  post34, post35, post36, post37, post38, post39, post40, post41, post42
+  post34, post35, post36, post37, post38, post39, post40, post41, post42, post43, post44, post45,
+  post46, post47, post48, post49, post50, post51, post52, post53, post54, post55, post56, post57,
+  post58, post59, post60, post61, post62, post63, post64, post65, post66
 ];
 
 // ID로 정렬
