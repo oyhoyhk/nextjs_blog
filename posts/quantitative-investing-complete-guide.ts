@@ -160,7 +160,7 @@ export const post: BlogPost = {
 ### 3. 백테스팅 프레임워크
 
 **Backtrader (Python)**
-```python
+\`\`\`python
 # 예시 코드 (실제 실행 불가)
 import backtrader as bt
 
@@ -174,7 +174,7 @@ class MyStrategy(bt.Strategy):
 cerebro = bt.Cerebro()
 cerebro.addstrategy(MyStrategy)
 cerebro.run()
-```
+\`\`\`
 
 ### 4. 실전 투자 단계
 
