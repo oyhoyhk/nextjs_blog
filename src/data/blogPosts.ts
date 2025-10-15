@@ -75,6 +75,9 @@ import { post as post71 } from '../../posts/land-investment-complete-guide';
 import { post as post72 } from '../../posts/federal-reserve-monetary-policy-analysis';
 import { post as post73 } from '../../posts/python-backtesting-practical-guide';
 import { post as post74 } from '../../posts/auction-rights-analysis-practical-guide';
+import { post as post75 } from '../../posts/quant-investing-practical-strategies';
+import { post as post76 } from '../../posts/commodity-investment-complete-guide';
+import { post as post77 } from '../../posts/precious-metals-investment-guide';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -84,7 +87,7 @@ const allPosts: BlogPost[] = [
   post34, post35, post36, post37, post38, post39, post40, post41, post42, post43, post44, post45,
   post46, post47, post48, post49, post50, post51, post52, post53, post54, post55, post56, post57,
   post58, post59, post60, post61, post62, post63, post64, post65, post66, post67, post68, post69,
-  post70, post71, post72, post73, post74
+  post70, post71, post72, post73, post74, post75, post76, post77
 ];
 
 // ID로 정렬
