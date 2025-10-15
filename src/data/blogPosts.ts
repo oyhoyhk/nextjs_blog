@@ -78,6 +78,18 @@ import { post as post74 } from '../../posts/auction-rights-analysis-practical-gu
 import { post as post75 } from '../../posts/quant-investing-practical-strategies';
 import { post as post76 } from '../../posts/commodity-investment-complete-guide';
 import { post as post77 } from '../../posts/precious-metals-investment-guide';
+import { post as post78 } from '../../posts/etf-investment-strategy-guide';
+import { post as post79 } from '../../posts/crypto-wallet-security-guide';
+import { post as post80 } from '../../posts/real-estate-tax-saving-strategies';
+import { post as post81 } from '../../posts/bond-investment-complete-guide';
+import { post as post82 } from '../../posts/machine-learning-quant-investing-guide';
+import { post as post83 } from '../../posts/auction-myeongdo-practical-guide';
+import { post as post84 } from '../../posts/options-trading-complete-guide';
+import { post as post85 } from '../../posts/defi-protocols-investment-guide';
+import { post as post86 } from '../../posts/jeonse-investment-safety-guide';
+import { post as post87 } from '../../posts/forex-investment-strategy-guide';
+import { post as post88 } from '../../posts/pairs-trading-statistical-arbitrage-guide';
+import { post as post89 } from '../../posts/auction-appraisal-winning-bid-strategy';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -87,7 +99,8 @@ const allPosts: BlogPost[] = [
   post34, post35, post36, post37, post38, post39, post40, post41, post42, post43, post44, post45,
   post46, post47, post48, post49, post50, post51, post52, post53, post54, post55, post56, post57,
   post58, post59, post60, post61, post62, post63, post64, post65, post66, post67, post68, post69,
-  post70, post71, post72, post73, post74, post75, post76, post77
+  post70, post71, post72, post73, post74, post75, post76, post77, post78, post79, post80, post81,
+  post82, post83, post84, post85, post86, post87, post88, post89
 ];
 
 // ID로 정렬
