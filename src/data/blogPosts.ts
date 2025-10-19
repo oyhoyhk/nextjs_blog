@@ -90,6 +90,18 @@ import { post as post86 } from '../../posts/jeonse-investment-safety-guide';
 import { post as post87 } from '../../posts/forex-investment-strategy-guide';
 import { post as post88 } from '../../posts/pairs-trading-statistical-arbitrage-guide';
 import { post as post89 } from '../../posts/auction-appraisal-winning-bid-strategy';
+import { post as post90 } from '../../posts/sector-rotation-strategy-guide';
+import { post as post91 } from '../../posts/cross-chain-bridge-investment-guide';
+import { post as post92 } from '../../posts/real-estate-trust-investment-guide';
+import { post as post93 } from '../../posts/inflation-hedging-investment-strategy';
+import { post as post94 } from '../../posts/portfolio-optimization-modern-theory';
+import { post as post95 } from '../../posts/auction-loan-financing-guide';
+import { post as post96 } from '../../posts/ipo-investment-strategy-complete-guide';
+import { post as post97 } from '../../posts/dao-investment-governance-guide';
+import { post as post98 } from '../../posts/knowledge-industry-center-investment-guide';
+import { post as post99 } from '../../posts/currency-hedging-strategy-guide';
+import { post as post100 } from '../../posts/high-frequency-trading-strategy-guide';
+import { post as post101 } from '../../posts/public-auction-investment-complete-guide';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -100,7 +112,8 @@ const allPosts: BlogPost[] = [
   post46, post47, post48, post49, post50, post51, post52, post53, post54, post55, post56, post57,
   post58, post59, post60, post61, post62, post63, post64, post65, post66, post67, post68, post69,
   post70, post71, post72, post73, post74, post75, post76, post77, post78, post79, post80, post81,
-  post82, post83, post84, post85, post86, post87, post88, post89
+  post82, post83, post84, post85, post86, post87, post88, post89, post90, post91, post92, post93,
+  post94, post95, post96, post97, post98, post99, post100, post101
 ];
 
 // ID로 정렬
