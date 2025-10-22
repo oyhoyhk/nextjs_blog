@@ -102,6 +102,12 @@ import { post as post98 } from '../../posts/knowledge-industry-center-investment
 import { post as post99 } from '../../posts/currency-hedging-strategy-guide';
 import { post as post100 } from '../../posts/high-frequency-trading-strategy-guide';
 import { post as post101 } from '../../posts/public-auction-investment-complete-guide';
+import { post as post102 } from '../../posts/technical-analysis-chart-patterns-guide';
+import { post as post103 } from '../../posts/metaverse-token-investment-guide';
+import { post as post104 } from '../../posts/housing-rental-business-registration-guide';
+import { post as post105 } from '../../posts/economic-indicators-investment-guide';
+import { post as post106 } from '../../posts/event-driven-quant-strategy-guide';
+import { post as post107 } from '../../posts/auction-profit-maximization-strategy';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -113,7 +119,8 @@ const allPosts: BlogPost[] = [
   post58, post59, post60, post61, post62, post63, post64, post65, post66, post67, post68, post69,
   post70, post71, post72, post73, post74, post75, post76, post77, post78, post79, post80, post81,
   post82, post83, post84, post85, post86, post87, post88, post89, post90, post91, post92, post93,
-  post94, post95, post96, post97, post98, post99, post100, post101
+  post94, post95, post96, post97, post98, post99, post100, post101, post102, post103, post104,
+  post105, post106, post107
 ];
 
 // ID로 정렬
