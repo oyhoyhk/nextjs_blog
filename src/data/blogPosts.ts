@@ -108,6 +108,18 @@ import { post as post104 } from '../../posts/housing-rental-business-registratio
 import { post as post105 } from '../../posts/economic-indicators-investment-guide';
 import { post as post106 } from '../../posts/event-driven-quant-strategy-guide';
 import { post as post107 } from '../../posts/auction-profit-maximization-strategy';
+import { post as post108 } from '../../posts/global-semiconductor-etf-investment-strategy';
+import { post as post109 } from '../../posts/cryptocurrency-tax-filing-guide-2025';
+import { post as post110 } from '../../posts/real-estate-investment-timing-strategy';
+import { post as post111 } from '../../posts/global-recession-signals-asset-allocation';
+import { post as post112 } from '../../posts/algorithmic-trading-system-guide';
+import { post as post113 } from '../../posts/auction-site-inspection-checklist';
+import { post as post114 } from '../../posts/dividend-growth-investing-strategy';
+import { post as post115 } from '../../posts/bitcoin-on-chain-analysis-guide';
+import { post as post116 } from '../../posts/multi-family-housing-investment-guide';
+import { post as post117 } from '../../posts/economic-cycle-investment-strategy';
+import { post as post118 } from '../../posts/factor-investing-smart-beta-guide';
+import { post as post119 } from '../../posts/auction-legal-risk-management-guide';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -120,7 +132,8 @@ const allPosts: BlogPost[] = [
   post70, post71, post72, post73, post74, post75, post76, post77, post78, post79, post80, post81,
   post82, post83, post84, post85, post86, post87, post88, post89, post90, post91, post92, post93,
   post94, post95, post96, post97, post98, post99, post100, post101, post102, post103, post104,
-  post105, post106, post107
+  post105, post106, post107, post108, post109, post110, post111, post112, post113, post114,
+  post115, post116, post117, post118, post119
 ];
 
 // ID로 정렬
