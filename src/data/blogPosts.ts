@@ -132,6 +132,12 @@ import { post as post128 } from '../../posts/real-estate-development-investment-
 import { post as post129 } from '../../posts/trade-war-investment-strategy';
 import { post as post130 } from '../../posts/options-arbitrage-strategy-guide';
 import { post as post131 } from '../../posts/auction-tax-strategy-complete-guide';
+import { post as post132 } from '../../posts/momentum-investing-strategy-guide';
+import { post as post133 } from '../../posts/bitcoin-self-custody-security-guide';
+import { post as post134 } from '../../posts/small-apartment-investment-strategy';
+import { post as post135 } from '../../posts/global-supply-chain-investment-strategy';
+import { post as post136 } from '../../posts/risk-parity-strategy-guide';
+import { post as post137 } from '../../posts/auction-property-selection-guide';
 
 // 모든 포스트를 배열로 수집
 const allPosts: BlogPost[] = [
@@ -146,7 +152,7 @@ const allPosts: BlogPost[] = [
   post94, post95, post96, post97, post98, post99, post100, post101, post102, post103, post104,
   post105, post106, post107, post108, post109, post110, post111, post112, post113, post114,
   post115, post116, post117, post118, post119, post120, post121, post122, post123, post124, post125,
-  post126, post127, post128, post129, post130, post131
+  post126, post127, post128, post129, post130, post131, post132, post133, post134, post135, post136, post137
 ];
 
 // ID로 정렬
